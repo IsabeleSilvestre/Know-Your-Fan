@@ -1,30 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Dashboard KYF</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Know Your Fan - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Dashboard - Know Your Fan</h1>
+  <header>
+  <div class="dashboard-header">
+    <img src="image/furia_logo.png" alt="Logo Furia" class="logo" />
+    <h1>Know Your Fan</h1>
+    <p>Dashboard de Visualização de Dados</p>
+  </header>
 
-  <div id="dashboard">
-    <table id="userTable">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Nome</th>
-          <th>CPF</th>
-          <th>Interesses</th>
-          <th>Eventos</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Dados serão preenchidos pelo JS -->
-      </tbody>
-    </table>
-  </div>
+  <main class="dashboard">
 
-  <script src="script.js"></script>
+    <section class="card">
+      <h2>Total de Usuários</h2>
+      <p id="total-users">0</p>
+    </section>
+
+    <section class="card">
+      <h2>Top Interesses</h2>
+      <ul id="top-interests">
+        <li>Carregando...</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Redes Sociais Conectadas</h2>
+      <p id="social-connected">0</p>
+    </section>
+
+    <section class="card">
+      <h2>Documentos Validados</h2>
+      <p id="docs-validated">0</p>
+    </section>
+  </main>
+
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>CPF</th>
+        <th>Email</th>
+        <th>Interesses</th>
+        <th>Redes Sociais</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- As linhas dos usuários serão inseridas aqui -->
+    </tbody>
+  </table>  
+  <script src="../js/dashboard.js"></script>
 </body>
 </html>

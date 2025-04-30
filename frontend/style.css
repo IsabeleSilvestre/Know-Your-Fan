@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f6fa;
+    color: #2f3640;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #353b48;
+  }
+  
+  header p {
+    color: #718093;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #40739e;
+  }
+  
+  .card p,
+  .card ul {
+    font-size: 1.5rem;
+  }
+  
+  .tabela-dados {
+    margin-top: 30px;
+  }
+  
+  #userTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    width: 50px;
+    height: auto;
+  }
