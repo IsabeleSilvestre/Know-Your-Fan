@@ -38,14 +38,14 @@ Animações: Hover suave nos cards para melhor experiência
 Filtros Interativos: Seleção dinâmica de dados em um dropdown estilizado
 
 ## **📊 Funcionalidades**
-
+```
 ✅ Total de Usuários → Exibe o número total de usuários cadastrados 
 ✅ Distribuição por Idade → Gráfico que mostra a quantidade de usuários por faixa etária 
 ✅ Top Interesses → Lista os interesses mais populares entre os usuários 
 ✅ Esportes Mais Assistidos → Gráfico de preferência esportiva dos usuários 
 ✅ Redes Sociais Conectadas → Quantidade de usuários que conectaram redes sociais 
 ✅ Documentos Validados e Pendentes → Exibe números de usuários com documentação validada
-
+```
 ## **🔎 Como Funciona?**
 
 1️⃣ Instalação
@@ -63,9 +63,10 @@ Gráficos Dinâmicos → Os dados são atualizados instantaneamente conforme os 
 Visualização Completa → Interface moderna e otimizada para diferentes dispositivos.
 
 ## **🛠 Possíveis Melhorias**
+```
 🔹 Integração com Banco de Dados → Usar uma API real para puxar informações. 
 🔹 Autenticação de Usuário → Criar um sistema de login para análises personalizadas. 
 🔹 Exportação de Relatórios → Permitir baixar gráficos e tabelas em PDF ou CSV.
-
+```
 ## **📜 Licença**
 Este projeto está sob a licença MIT, permitindo uso livre com atribuição.
