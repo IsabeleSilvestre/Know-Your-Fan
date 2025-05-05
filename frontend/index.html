@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Know Your Fan - Dashboard</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <header>
     <div class="dashboard-header">
-      <img src="furia_logo.png" alt="Logo Furia" class="logo"/>
       <h1>Dashboard - Know Your Fan</h1>
     </div>
     <p>Visualize os dados dos fãs registrados</p>
@@ -22,46 +22,51 @@
     </section>
 
     <section class="card">
+      <h2>Distribuição de Usuários por Idade</h2>
+      <canvas id="usersChart"></canvas>
+    </section>
+
+    <section class="card">
       <h2>Top Interesses</h2>
-      <ul id="top-interests">
-        <li>Carregando...</li>
-      </ul>
+      <canvas id="interestsChart"></canvas>
     </section>
 
     <section class="card">
       <h2>Esportes Mais Assistidos</h2>
-      <ul id="top-events">
-        <li>Carregando...</li>
-      </ul>
+      <canvas id="eventsChart"></canvas>
     </section>
 
     <section class="card">
       <h2>Redes Sociais Conectadas</h2>
       <p id="social-connected">0</p>
     </section>
+
+    <section class="card">
+      <h2>Documentos Validados</h2>
+      <p id="validated-docs">0</p>
+    </section>
+
+    <section class="card">
+      <h2>Documentos Pendentes</h2>
+      <p id="pending-docs">0</p>
+    </section>
+
+    <!-- Filtros Melhorados com Dropdown -->
+    <section class="filter">
+      <h2>Filtrar Dados</h2>
+      <div class="dropdown">
+        <button class="dropbtn">Escolha os filtros ▼</button>
+        <div class="dropdown-content">
+          <label><input type="checkbox" id="filter-age" value="age"> Idade</label>
+          <label><input type="checkbox" id="filter-gender" value="gender"> Gênero</label>
+          <label><input type="checkbox" id="filter-interests" value="interests"> Interesses</label>
+          <label><input type="checkbox" id="filter-esports" value="esports"> Esportes Assistidos</label>
+          <label><input type="checkbox" id="filter-documents" value="documents"> Documentos</label>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <section>
-    <h2>Lista de Fãs</h2>
-    <table id="userTable">
-      <thead>
-        <tr>
-          <th>Nome</th>
-          <th>CPF</th>
-          <th>Email</th>
-          <th>Idade</th>
-          <th>Interesses</th>
-          <th>Redes Sociais</th>
-        </tr>      
-     </thead>
-      <tbody>
-        <tr>
-          <td colspan="5">Carregando...</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <script src="dashboard.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
