@@ -53,7 +53,7 @@ Para rodar o dashboard, basta abrir index.html em um navegador compatível (Chro
 
 Se quiser rodar localmente com um servidor:
 
-sh npx serve .
+```sh npx serve .```
 
 2️⃣ Uso
 Filtros Interativos → Selecione quais dados quer visualizar no dropdown.
