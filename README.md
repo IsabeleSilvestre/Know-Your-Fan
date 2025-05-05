@@ -39,7 +39,12 @@ Filtros Interativos: Seleção dinâmica de dados em um dropdown estilizado
 
 ## **📊 Funcionalidades**
 
-✅ Total de Usuários → Exibe o número total de usuários cadastrados ✅ Distribuição por Idade → Gráfico que mostra a quantidade de usuários por faixa etária ✅ Top Interesses → Lista os interesses mais populares entre os usuários ✅ Esportes Mais Assistidos → Gráfico de preferência esportiva dos usuários ✅ Redes Sociais Conectadas → Quantidade de usuários que conectaram redes sociais ✅ Documentos Validados e Pendentes → Exibe números de usuários com documentação validada
+✅ Total de Usuários → Exibe o número total de usuários cadastrados 
+✅ Distribuição por Idade → Gráfico que mostra a quantidade de usuários por faixa etária 
+✅ Top Interesses → Lista os interesses mais populares entre os usuários 
+✅ Esportes Mais Assistidos → Gráfico de preferência esportiva dos usuários 
+✅ Redes Sociais Conectadas → Quantidade de usuários que conectaram redes sociais 
+✅ Documentos Validados e Pendentes → Exibe números de usuários com documentação validada
 
 ## **🔎 Como Funciona?**
 
