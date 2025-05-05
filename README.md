@@ -14,17 +14,19 @@ Estilo: CSS personalizado com animações e responsividade
 
 Dados: Mock JSON (pode ser integrado a um banco de dados real)
 
-## **🏗 Estrutura do Projeto**
-
+## **📂 Estrutura do Projeto**
+```bash
 📂 KnowYourFan
-│── 📂 backend/   (Código do servidor e lógica da aplicação)
-│   ├── main.py    (Arquivo principal do backend)
-│── 📂 frontend/   (Interface do dashboard)
-│   ├── index.html  (Página principal do dashboard)
-│   ├── scripts.js   (Código JavaScript para interatividade)
-│   ├── style.css     (Arquivo CSS para estilização)
-│── 📂 venv/          (Ambiente virtual do Python)
-│── 📜 README.md       (Documentação do projeto)
+│── 📂 backend/         # Código do servidor e lógica da aplicação
+│   ├── main.py        # Arquivo principal do backend
+│── 📂 frontend/        # Interface do dashboard
+│   ├── index.html     # Página principal do dashboard
+│   ├── scripts.js     # Código JavaScript para interatividade
+│   ├── style.css      # Arquivo CSS para estilização
+│── 📂 venv/            # Ambiente virtual do Python
+│── 📂 image/           # Imagens utilizadas no projeto
+│── 📜 README.md        # Documentação do projeto
+```
 
 ## **🎨 Design**
 Paleta de Cores: Preto, roxo e violeta
