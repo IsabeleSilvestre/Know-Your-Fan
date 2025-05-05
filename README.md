@@ -5,7 +5,7 @@ Este projeto é um dashboard interativo para análise de usuários, fornecendo m
 
 O sistema foi projetado para ter um design moderno, inspirado no estilo FURIA, com uma paleta de cores escura e roxa, garantindo um layout impactante e competitivo.
 
-h1 🚀 Tecnologias Utilizadas
+# **🚀 Tecnologias Utilizadas**
 Front-end: HTML, CSS e JavaScript
 
 Gráficos: Chart.js
