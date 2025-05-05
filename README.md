@@ -26,6 +26,7 @@ Dados: Mock JSON (pode ser integrado a um banco de dados real)
 │── 📂 venv/            # Ambiente virtual do Python
 │── 📜 README.md        # Documentação do projeto
 
+
 ## **🎨 Design**
 Paleta de Cores: Preto, roxo e violeta
 
